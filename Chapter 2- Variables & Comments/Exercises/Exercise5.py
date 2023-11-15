@@ -1,14 +1,13 @@
-# Original list of people to invite to dinner
-invitees = ["Albert Einstein", "Marie Curie", "Leonardo da Vinci"]
+# Cost of each USB stick and total budget
+usb_stick_cost = 6
+total_budget = 50
 
-# One guest can't make it, so you decide to invite someone else
-cancelled_guest = "Marie Curie"  # Replace with the name of the guest who can't make it
-new_guest = "Isaac Newton"  # The person you're inviting in place of the cancelled guest
+# Calculate the maximum number of USB sticks she can buy
+num_usb_sticks = total_budget // usb_stick_cost
 
-# Remove the cancelled guest and add the new guest
-invitees.remove(cancelled_guest)
-invitees.append(new_guest)
+# Calculate the amount of money left after buying the USB sticks
+money_left = total_budget % usb_stick_cost
 
-# Send out the updated invitations
-for person in invitees:
-    print("Dear " + person + ", you are cordially invited to dinner at my place.")
+# Display the results
+print(f"With £{total_budget}, she can buy {num_usb_sticks} USB sticks.")
+print(f"She will have £{money_left} left.")

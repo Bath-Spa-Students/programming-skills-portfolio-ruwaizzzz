@@ -1,8 +1,10 @@
-# Famous person I admire 
-author = "Ronaldo"
+# List of names
+names = ["Sultan", "Sanu", "Jose", "Sahil", "Fudail"]
 
-# Bill gates quote
-quote = "Talent without working hard is nothing."
+# Define a personalized message template
+message_template = "Hello, {}! Thank you for being awesome."
 
-# Printing the quote along with its author
-print(author + ' once said, "' + quote + '"')
+# Print personalized messages for each person
+for name in names:
+    personalized_message = message_template.format(name)
+    print(personalized_message)

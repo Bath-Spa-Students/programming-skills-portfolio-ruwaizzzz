@@ -1,11 +1,5 @@
-# Assigning message to a variable 
-message = "My name is hamoodmir"
+names = ['jango', 'fudail', 'sultan']
 
-# Printing the message
-print(message)
-
-# Changing the message of the variable  
-message = "People call me ronaldo"
-
-# Printing the message 
-print(message)
+print(names[0])
+print(names[1])
+print(names[2])

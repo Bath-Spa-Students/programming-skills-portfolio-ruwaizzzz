@@ -1,9 +1,4 @@
-# Create a list of names
-names = ["Friend1", "Friend2", "Friend3", "Friend4"]
+quote = "A person who never made a mistake never tried anything new."
+author = "Albert Einstein"
 
-# Define a common message
-message = "Hello, "
-
-# Print personalized messages
-for name in names:
-    print(message + name)
+print(f"{author} once said, \"{quote}\"")

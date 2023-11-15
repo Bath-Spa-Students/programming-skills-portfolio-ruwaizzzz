@@ -1,6 +1,9 @@
-# Create a list of names
-names = ["Ruwaiz", "Sultan", "Jango", "Fudail", "Jose"]
+message = "My name is Ruwaiz and im studying in Bathspa University RAK"
 
-# Print each name one at a time
-for name in names:
-    print(name)
+# Printing the message
+print(message)
+ 
+message = "It is the best university in UAE"
+
+ 
+print(message)

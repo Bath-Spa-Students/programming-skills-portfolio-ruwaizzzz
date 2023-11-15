@@ -1,6 +1,4 @@
-# Create a list of people to invite to dinner
-invitees = ["Hussain", "Ronaldo", "Messi"]
+fav_num = 25
+msg = f"My favorite number is {fav_num}."
 
-# Send dinner invitations to each person
-for person in invitees:
-    print("Dear " + person + ", you are cordially invited to dinner at my place.")
+print(msg)
